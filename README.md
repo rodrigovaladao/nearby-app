@@ -6,8 +6,6 @@ This project was developed as part of the **NLW Pocket Mobile** event, a learnin
 
 ![Project Thumbnail](mobile/assets/thumbnail.jpg)
 
-🌐 **[Live Demo Coming Soon]**
-
 ## 🚀 Features
 
 - **Exclusive Coupons:** Enjoy discounts from nearby establishments.
@@ -22,7 +20,52 @@ This project was developed as part of the **NLW Pocket Mobile** event, a learnin
 
 ## 📂 Project Structure
 
-nearby-app/ │ ├── api/ # Backend API service │ ├── node_modules/ # Backend dependencies │ ├── prisma/ # Prisma configuration and migrations │ ├── src/ # API source code │ ├── .env # Environment variables for the API │ ├── .gitignore # Git ignore rules for the backend │ ├── package-lock.json # Dependency lock file for the API │ ├── package.json # Backend dependencies and scripts │ └── tsconfig.json # TypeScript configuration for the API │ ├── mobile/ # Mobile application │ ├── .expo/ # Expo-related settings │ ├── .vscode/ # VS Code configuration files │ ├── assets/ # Static assets (images, fonts, etc.) │ ├── nearby/ # Nearby app-related files │ ├── node_modules/ # Mobile dependencies │ ├── src/ # Main application source code │ ├── .gitignore # Git ignore rules for the mobile app │ ├── app.json # Expo project configuration │ ├── expo-env.d.ts # Expo environment types │ ├── package-lock.json # Dependency lock file for the mobile app │ ├── package.json # Mobile app dependencies and scripts │ └── tsconfig.json # TypeScript configuration for the mobile app
+```
+mobile/
+├── .expo/
+├── .vscode/
+├── assets/
+│   ├── images/
+│   │   └── thumbnail.jpg
+│
+├── nearby/
+│   ├── nearby/
+│   ├── nearby.xcodeproj/
+│   ├── nearbyTests/
+│   └── nearbyUITests/
+│
+├── node_modules/
+├── src/
+│   ├── app/
+│   │   ├── market/
+│   │   │   ├── _layout.tsx
+│   │   │   ├── home.tsx
+│   │   │   └── index.tsx
+│   │   ├── assets/
+│   │   │   ├── location.png
+│   │   │   ├── logo.png
+│   │   │   └── pin.png
+│   │   ├── components/
+│   │   │   ├── button/
+│   │   │   ├── categories/
+│   │   │   ├── category/
+│   │   │   ├── loading/
+│   │   │   ├── market/
+│   │   │   ├── place/
+│   │   │   ├── places/
+│   │   │   ├── step/
+│   │   │   ├── steps/
+│   │   │   └── welcome/
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── styles/
+│   │   │   ├── colors.ts
+│   │   │   ├── font-family.ts
+│   │   │   └── theme.ts
+│   │   └── utils/
+│
+├── .gitignore
+```
 
 ## 🏁 How to Run the Project
 
